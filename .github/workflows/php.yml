@@ -15,7 +15,7 @@ jobs:
       - uses: actions/checkout@v1
         with:
           fetch-depth: 1
-      - uses: nanasess/setup-php@v3.0.1
+      - uses: mbaynton/setup-php@master
         with:
           php-version: ${{ matrix.php }}
 
